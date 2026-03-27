@@ -24,7 +24,7 @@ public class ActionsHelper {
 		
 	}
 	
-	public void navigateDownDropDown(WebElement element,int downArrowIndex,long timeInSec) {
+	public void navigateDownDropDown(WebElement element,int downArrowIndex) {
 //		act.click(element).pause(3000).keyDown(Keys.DOWN).keyDown(Keys.DOWN).keyDown(Keys.DOWN).keyDown(Keys.ENTER);
 //		/Action click=act.click(element).pause(3000).build();
 		act.sendKeys(element).pause(Duration.ofSeconds(timeInSec)).perform();

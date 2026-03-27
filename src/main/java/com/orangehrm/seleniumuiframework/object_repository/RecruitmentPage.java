@@ -22,12 +22,14 @@ package com.orangehrm.seleniumuiframework.object_repository;
 		public void clickAddbtn() {
 			getAddbtn().click();
 		}
-//		public WebElement getVacanciesLink() {
-//			return vacanciesLink;
-//		}
-//		public void clickVacanciesLink() {
-//			getVacanciesLink().click();
-//		}
+		public WebElement getVacanciesLink() {
+			return vacanciesLink;
+		}
+		public void clickVacanciesLink() {
+			getVacanciesLink().click();
+		}
+		
+		
 	
 
 }
